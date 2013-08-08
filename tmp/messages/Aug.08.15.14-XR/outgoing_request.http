@@ -1,0 +1,10 @@
+GET / HTTP/1.0
+Host: www.alexanderwang.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:23.0) Gecko/20100101 Firefox/23.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip,deflate
+Cookie: auid=M4K2xTGvpzR278gMzW83kAwk2YqZPFtw495aQXnej9YTfH9sGdggiwtl4r3RLIbSnpSkZ4jZN7suVoq6dohafNJGb_AMZcBE3dvzFjFUPvJpjKxC_2UAffsQJphjC2wmNDcgbhz2Iift71unDuBHf8zQZT01; AlexanderWang_EmailOverlay=ID=af739479-9825-432f-ae6c-223ac7ae8af0; __utma=1.1686074225.1374528406.1374725843.1375298563.6; __utmz=1.1374528406.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _chartbeat2=psfcsesa2rg5xabi.1374528406379.1375298564623.1110000001; s_sess=%20s_cc%3Dtrue%3B%20s_sq%3D%3B%20s_v19%3D15736854-66fa-46d7-a6ca-2f0538e36c36%3B; s_pers=%20s_p49%3D1%7C1376001149588%3B
+Connection: close
+Via: 1.0 moovweb
+

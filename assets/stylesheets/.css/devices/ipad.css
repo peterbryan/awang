@@ -1,0 +1,241 @@
+/*
+    vertical-rhythmic
+    
+    Version : 0.3.1
+    Original Author  : Aurélien Delogu (dev@dreamysource.fr)
+    Additional Author: Jeff Patzer (jeff@patzer.us)
+    License : MIT
+*/
+/*
+    number $base-font-size: base font-size which will be applied to the body (default: 1em)
+*/
+/*
+    number $base-line-height: base line-height which will be applied to the body (default: 1.5em)
+*/
+/*
+    Adjust a unit to be relative if in PX to allow for arithmetic
+*/
+/*
+    Initialize the rhythm
+*/
+/*
+    Return a rhythm
+
+    Parameters
+        integer $lines      : number of whitespace lines (default: 1)
+                              You can specify "auto" value and it will generate a proportional value from the base line-height (especially useful when you want to set a good line-height value)
+        number $font-size   : font size, in ems
+*/
+/*
+    Return a rhythm from pixel unit
+
+    Parameters
+        integer $width      : width of the rhythm (without px unit)
+        number $font-size   : font size, in ems
+*/
+/*
+    Set a new font-size and automatically adapt the line-height
+
+    Parameters
+        number $font-size   : font size, in ems
+        integer $lines      : number of whitespace lines for the line-height
+                              Keeps base line proportions by default
+*/
+/*
+    Add a margin around a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a top margin to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a bottom margin to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a padding around a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a top padding to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a bottom padding to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a top border around a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : border type
+*/
+/*
+    Add a top border to a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : border type
+*/
+/*
+    Add a bottom border to a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : border type
+*/
+/*
+    Add an outline around a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : outline type
+*/
+/* line 7, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_base */
+html {
+  height: 100%;
+  overflow: auto !important; }
+
+/* line 12, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_base */
+body {
+  -webkit-text-size-adjust: none;
+  background: white;
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Verdana;
+  position: relative;
+  min-height: 100%; }
+
+/* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_base */
+a {
+  color: #336699;
+  text-decoration: none;
+  word-wrap: break-word; }
+
+/* line 27, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_base */
+a, a:link {
+  -webkit-tap-highlight-color: rgba(225, 244, 204, 0.5); }
+
+/* line 31, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_base */
+img {
+  max-width: 100%; }
+
+/* line 35, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_base */
+input[type="number"]::-webkit-outer-spin-button {
+  display: none; }
+
+/*  #######################################
+    ####### URANIUM WIDGET STYLING ########
+    #######################################  */
+/* line 6, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+[data-ur-toggler-component="content"] {
+  display: none; }
+  /* line 8, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+  [data-ur-toggler-component="content"]:not([data-ur-state]) {
+    display: none; }
+  /* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+  [data-ur-toggler-component="content"][data-ur-state="enabled"] {
+    display: block; }
+
+/* line 17, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+[data-ur-tabs-component="content"] {
+  display: none; }
+  /* line 19, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+  [data-ur-tabs-component="content"]:not([data-ur-state]) {
+    display: none; }
+  /* line 22, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+  [data-ur-tabs-component="content"][data-ur-state="enabled"] {
+    display: block; }
+
+/* line 28, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+[data-ur-state="hide"] {
+  display: none !important; }
+
+/* line 33, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+div[data-ur-carousel-component='view_container'] {
+  width: 100%;
+  overflow-x: hidden; }
+
+/* line 37, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+div[data-ur-carousel-component="scroll_container"] {
+  display: block;
+  clear: both; }
+  /* line 40, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+  div[data-ur-carousel-component="scroll_container"] > * {
+    display: inline-block;
+    float: left; }
+
+/* line 46, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+a[data-ur-carousel-component="item"] img {
+  -webkit-user-drag: none; }
+
+/* line 50, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+[data-ur-carousel-component="dots"] {
+  text-align: center;
+  margin-bottom: 10px; }
+
+/* line 54, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+[data-ur-carousel-component="dot"] {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background: black;
+  display: inline-block;
+  margin: 0 1px;
+  opacity: 0.8;
+  width: 10px;
+  height: 10px; }
+  /* line 62, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_uranium.scss */
+  [data-ur-carousel-component="dot"][data-ur-state="inactive"] {
+    opacity: 0.3; }
+
+/* line 35, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/devices/../globals/_vertical_rhythmic */
+html, body {
+  font-size: 13px;
+  line-height: 1.84615em; }
+
+
+
