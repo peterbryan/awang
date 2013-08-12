@@ -1,3 +1,79 @@
-header._header {
-  
+header#mw_header {
+ 
+
+.navigation { 
+
+  background: white;
+  /*a and span are the clickable rows*/
+  a, span {
+    //color: $category_color_1;
+    display: block;
+    padding: 5px;
+    width: 100%;
+  }
+li.category{
+	span[data-ur-tabs-component='button']{
+		position:relative;
+		display: block;
+		background: black;
+		color: $category_color_1;
+		width: 100%;
+
 }
+}
+}
+}
+
+
+/* Examples from Coast Stores - buttons.
+  li.level_1 {
+    span[data-ur-tabs-component='button'] {
+      position: relative;
+      color: $category_color_1;
+      display: block;
+      text-transform: uppercase;
+      border-bottom: 1px solid $mw_default_border;
+      &:after {
+       // @include toggler_down;
+      }
+      &[data-ur-state='enabled'] {
+        &:after {
+          @include transform(rotate(180deg));
+        }
+      }
+    }
+
+
+     
+    
+    ul.level_2 {
+     // background-color: $mw_list_background;
+      //border: 1px solid $mw_list_border;
+      padding:0 10px;
+      li+li.level_2{
+       // border-top: 1px dotted $mw_list_border;
+      }
+      li.level_2 {
+        a {
+          &:after {
+          //  @include toggler_right;
+          }
+        }
+      }
+    }
+  }
+
+  li.mw_bottom span {
+    border-bottom: 0px solid red  !important;
+  }
+}
+*/
+/*
+.navigation_container{
+  z-index: 998;
+  position: absolute;
+  width: 100%;
+  background: white;
+  top: 40px;
+	}
+	*/

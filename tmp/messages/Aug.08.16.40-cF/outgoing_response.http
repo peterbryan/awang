@@ -1,0 +1,7 @@
+HTTP/1.0 535 Internal Server Error
+Connection: close
+Content-Type: text/plain;
+Content-Length: 163
+
+/Users/peterbryanr/Desktop/Moovweb Files/demos/wang/scripts/sections/header.ts:65 -- statement must consist of import or expression; found unexpected end of file
+

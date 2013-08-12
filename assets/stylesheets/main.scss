@@ -16,3 +16,18 @@
 
 // Pages
 @import "pages/_home";
+
+
+
+  div#sub_navigation #filter, div#sub_navigation #sortby_mw, div#sub_navigation #mw_suggestions, div#sub_navigation #mw_popular {
+    z-index: 800;
+    margin: 0 4px;
+    border: 1px solid gray;
+    color: #535353;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+    letter-spacing: 0.01em;
+    font-stretch: semi-expanded;
+    position: absolute;
+    right: 0px;
+    width: 46%; }

@@ -1,0 +1,9 @@
+GET /opensearch.xml HTTP/1.0
+Host: www.alexanderwang.com
+Connection: close
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+Accept-Encoding: gzip,deflate
+Accept-Language: en-US,en;q=0.8
+Cookie: auid=I7UI1B7rFHD6vyLOf9wOoUaSmZKVg4V8wCYtgYqlPJA8CK6iWFcQfhFNResA7GJE-5SLw4ZfsNSexDz7cm8-uYnBHBucwDqGE-aFdhID6vcYuwtT0-SerEXNoWWDrjMM_ul3bJA9Tb2LIavoR6uo4Z_ZYiU1; sid2=bitgxp45unehref2gs4zng45; AlexanderWang_EmailOverlay=ID=af739479-9825-432f-ae6c-223ac7ae8af0; Region Selector=Hide; d=; __utma=1.1457679969.1374168242.1376300953.1376339830.9; __utmb=1.5.10.1376339830; __utmc=1; __utmz=1.1374168242.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); s_pers=%20s_icid%3D%255B%255B%2527home_2_audrey%2527%252C%25271376005377046%2527%255D%255D%7C1533771777046%3B%20s_p49%3D1%7C1376341808853%3B; s_sess=%20s_cc%3Dtrue%3B%20s_v19%3D18ee824d-fa61-4d63-a68c-1b67be94c245%3B%20s_sq%3D%3B; _chartbeat2=hvgh8lec93u41tw8.1374168243975.1376340009425.0000000000010011
+Via: 1.0 moovweb
+

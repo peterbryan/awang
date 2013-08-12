@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: deflate
+Server: Microsoft-IIS/7.5
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTR STP IND DEM"
+sv: 15
+Date: Mon, 12 Aug 2013 21:54:27 GMT
+Connection: close
+Content-Length: 356
+
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image>http://www.alexanderwang.com/favicon.ico</Image>
+  <Url type="text/html" method="get" template="http://www.alexanderwang.com/search?q={searchTerms}" />
+</OpenSearchDescription>

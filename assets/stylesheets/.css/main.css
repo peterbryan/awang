@@ -135,12 +135,12 @@
                               It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
         string $type        : outline type
 */
-/* line 7, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_base */
+/* line 7, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_base */
 html {
   height: 100%;
   overflow: auto !important; }
 
-/* line 12, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_base */
+/* line 12, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_base */
 body {
   -webkit-text-size-adjust: none;
   background: white;
@@ -149,75 +149,75 @@ body {
   position: relative;
   min-height: 100%; }
 
-/* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_base */
+/* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_base */
 a {
   color: #336699;
   text-decoration: none;
   word-wrap: break-word; }
 
-/* line 27, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_base */
+/* line 27, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_base */
 a, a:link {
   -webkit-tap-highlight-color: rgba(225, 244, 204, 0.5); }
 
-/* line 31, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_base */
+/* line 31, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_base */
 img {
   max-width: 100%; }
 
-/* line 35, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_base */
+/* line 35, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_base */
 input[type="number"]::-webkit-outer-spin-button {
   display: none; }
 
 /*  #######################################
     ####### URANIUM WIDGET STYLING ########
     #######################################  */
-/* line 6, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 6, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 [data-ur-toggler-component="content"] {
   display: none; }
-  /* line 8, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+  /* line 8, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
   [data-ur-toggler-component="content"]:not([data-ur-state]) {
     display: none; }
-  /* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+  /* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
   [data-ur-toggler-component="content"][data-ur-state="enabled"] {
     display: block; }
 
-/* line 17, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 17, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 [data-ur-tabs-component="content"] {
   display: none; }
-  /* line 19, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+  /* line 19, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
   [data-ur-tabs-component="content"]:not([data-ur-state]) {
     display: none; }
-  /* line 22, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+  /* line 22, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
   [data-ur-tabs-component="content"][data-ur-state="enabled"] {
     display: block; }
 
-/* line 28, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 28, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 [data-ur-state="hide"] {
   display: none !important; }
 
-/* line 33, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 33, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 div[data-ur-carousel-component='view_container'] {
   width: 100%;
   overflow-x: hidden; }
 
-/* line 37, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 37, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 div[data-ur-carousel-component="scroll_container"] {
   display: block;
   clear: both; }
-  /* line 40, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+  /* line 40, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
   div[data-ur-carousel-component="scroll_container"] > * {
     display: inline-block;
     float: left; }
 
-/* line 46, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 46, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 a[data-ur-carousel-component="item"] img {
   -webkit-user-drag: none; }
 
-/* line 50, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 50, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 [data-ur-carousel-component="dots"] {
   text-align: center;
   margin-bottom: 10px; }
 
-/* line 54, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+/* line 54, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
 [data-ur-carousel-component="dot"] {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -228,14 +228,96 @@ a[data-ur-carousel-component="item"] img {
   opacity: 0.8;
   width: 10px;
   height: 10px; }
-  /* line 62, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_uranium.scss */
+  /* line 62, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_uranium.scss */
   [data-ur-carousel-component="dot"][data-ur-state="inactive"] {
     opacity: 0.3; }
 
-/* line 35, /Users/peterbryanr/Desktop/Moovweb Files/demos/awang/assets/stylesheets/globals/_vertical_rhythmic */
+/* line 35, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/globals/_vertical_rhythmic */
 html, body {
   font-size: 13px;
   line-height: 1.84615em; }
 
+/* line 4, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+header#mw_header .navigation {
+  background: white;
+  /*a and span are the clickable rows*/ }
+  /* line 8, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+  header#mw_header .navigation a, header#mw_header .navigation span {
+    display: block;
+    padding: 5px;
+    width: 100%; }
+  /* line 15, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+  header#mw_header .navigation li.category.category-shop.category-first span[data-ur-tabs-component='button'] {
+    position: relative;
+    display: block;
+    background: black;
+    color: #737373;
+    width: 100%; }
+
+/* Examples from Coast Stores - buttons.
+  li.level_1 {
+    span[data-ur-tabs-component='button'] {
+      position: relative;
+      color: $category_color_1;
+      display: block;
+      text-transform: uppercase;
+      border-bottom: 1px solid $mw_default_border;
+      &:after {
+       // @include toggler_down;
+      }
+      &[data-ur-state='enabled'] {
+        &:after {
+          @include transform(rotate(180deg));
+        }
+      }
+    }
 
 
+     
+    
+    ul.level_2 {
+     // background-color: $mw_list_background;
+      //border: 1px solid $mw_list_border;
+      padding:0 10px;
+      li+li.level_2{
+       // border-top: 1px dotted $mw_list_border;
+      }
+      li.level_2 {
+        a {
+          &:after {
+          //  @include toggler_right;
+          }
+        }
+      }
+    }
+  }
+
+  li.mw_bottom span {
+    border-bottom: 0px solid red  !important;
+  }
+}
+*/
+/*
+.navigation_container{
+  z-index: 998;
+  position: absolute;
+  width: 100%;
+  background: white;
+  top: 40px;
+	}
+	*/
+
+
+/* line 22, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/main.scss */
+div#sub_navigation #filter, div#sub_navigation #sortby_mw, div#sub_navigation #mw_suggestions, div#sub_navigation #mw_popular {
+  z-index: 800;
+  margin: 0 4px;
+  border: 1px solid gray;
+  color: #535353;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: white;
+  letter-spacing: 0.01em;
+  font-stretch: semi-expanded;
+  position: absolute;
+  right: 0px;
+  width: 46%; }
