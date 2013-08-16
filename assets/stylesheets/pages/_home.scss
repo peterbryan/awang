@@ -1,5 +1,29 @@
 // Every page should have a class on the body
 // Scope that in each file at the start
 .mw_home {
-  
+
+	ul{
+	list-style-type: none;
+		}
+		background: black;
+.navigation{
+
+	span[data-ur-tabs-component='button']{
+		position:relative;
+		display: block;
+		background: black;
+		color: $category_color_1;
+		width: 100%;
+		border-bottom-style: ridge;
+		padding: 5px;
+	}
 }
+
+//An attempt to remove the broken ALT on the page
+//That is on the promo items.
+
+//.bottom-promo{alt=""}
+}
+
+
+

@@ -1,6 +1,21 @@
 header#mw_header {
  
 
+.top-nav{
+	
+.action-set.li a{
+	color:white;
+	}
+}
+
+
+//Search Bar//
+.search
+{
+  width: 100%;
+}
+
+
 .navigation { 
 
   background: white;
@@ -12,14 +27,16 @@ header#mw_header {
     width: 100%;
   }
 li.category{
+	//ul{
+	//list-style-type: none;
+	//	}
 	span[data-ur-tabs-component='button']{
 		position:relative;
 		display: block;
 		background: black;
 		color: $category_color_1;
 		width: 100%;
-
-}
+	}
 }
 }
 }

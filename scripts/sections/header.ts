@@ -1,9 +1,16 @@
-# $('./body') {
-#   insert_top("header", class: "_header") {
-#     Move stuff here
-#   }
-# }
+
 $("./body") {
+
+//Header Top Menu
+
+  $$("a.logo"){
+    inner("")
+    insert("img",src: "http://jscssecaw.ctscdn.com/content/images/logo.png")
+    move_to("//div[@class='top-nav']","top");
+  }
+
+
+
   
   #Fix for students page, must go here, double header issue
   $('//*[@id="nusleft"]'){

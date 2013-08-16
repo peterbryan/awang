@@ -237,17 +237,23 @@ html, body {
   font-size: 13px;
   line-height: 1.84615em; }
 
-/* line 4, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+/* line 6, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+header#mw_header .top-nav .action-set.li a {
+  color: white; }
+/* line 13, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+header#mw_header .search {
+  width: 100%; }
+/* line 19, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
 header#mw_header .navigation {
   background: white;
   /*a and span are the clickable rows*/ }
-  /* line 8, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+  /* line 23, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
   header#mw_header .navigation a, header#mw_header .navigation span {
     display: block;
     padding: 5px;
     width: 100%; }
-  /* line 15, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
-  header#mw_header .navigation li.category.category-shop.category-first span[data-ur-tabs-component='button'] {
+  /* line 33, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header */
+  header#mw_header .navigation li.category span[data-ur-tabs-component='button'] {
     position: relative;
     display: block;
     background: black;
@@ -307,17 +313,18 @@ header#mw_header .navigation {
 	}
 	*/
 
-
-/* line 22, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/main.scss */
-div#sub_navigation #filter, div#sub_navigation #sortby_mw, div#sub_navigation #mw_suggestions, div#sub_navigation #mw_popular {
-  z-index: 800;
-  margin: 0 4px;
-  border: 1px solid gray;
-  color: #535353;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background-color: white;
-  letter-spacing: 0.01em;
-  font-stretch: semi-expanded;
-  position: absolute;
-  right: 0px;
-  width: 46%; }
+/* line 3, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/_home */
+.mw_home {
+  background: black; }
+  /* line 5, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/_home */
+  .mw_home ul {
+    list-style-type: none; }
+  /* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/_home */
+  .mw_home .navigation span[data-ur-tabs-component='button'] {
+    position: relative;
+    display: block;
+    background: black;
+    color: #737373;
+    width: 100%;
+    border-bottom-style: ridge;
+    padding: 5px; }
