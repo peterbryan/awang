@@ -1,35 +1,80 @@
 header#mw_header {
+//removing the bullets in unordered lists.
  
+
+
+//attempting to manipulate logo properties, including centering it
+.logo img {
+    //width: 140px;
+    //height: 20px;
+    //display: block;
+    margin: 16px 0 0px 10px;
+    text-indent: -900px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+
 
 .top-nav{
 	
-.action-set.li a{
-	color:white;
+.ul.action-set{
+	color: white;
+//^^^^Attempting to change the color of the font for these links
+//If I can change the color of this I can manipualte the header
 	}
 }
 
-
-//Search Bar//
-.search
-{
-  width: 100%;
+.botom-promo-item{
+//	ALT="NONE"
+//This is an attempt to remove the broken ALT Style on Alexanderwang.
 }
 
 
-.navigation { 
+.navigation{
 
-  background: white;
-  /*a and span are the clickable rows*/
+
+
+	span[data-ur-tabs-component='button']{
+		position:relative;
+		display: block;
+		background: black;
+		color: $category_color_1;
+		width: 100%;
+		border-bottom-style: ridge;
+		padding: 5px;
+		font-weight: bold;
+	}
+	.category-title{
+color:white;
+	}
+	.subcat-title{
+		color:$category_color_1;
+	}
+
+						}//navigation end
+
+} //main end bracket
+
+
+
+
+ /*
+ ATTEMPTINT TO BLOCK OUT THE BOTTOM
+
+//  background: white;
+  //a and span are the clickable rows
+  //
+  
   a, span {
     //color: $category_color_1;
     display: block;
     padding: 5px;
     width: 100%;
   }
-  
-  ///How Do I get this to affect the actual Buttons?
-  //For example, i have made the width of the buttons be 100% so it is iphone friendly
-  //but it does not reflect when I load it on moovweb.
 li.category{
 	//ul{
 	//list-style-type: none;
@@ -43,7 +88,8 @@ li.category{
 	}
 }
 }
-}
+
+
 
 
 /* Examples from Coast Stores - buttons.
@@ -88,7 +134,7 @@ li.category{
     border-bottom: 0px solid red  !important;
   }
 }
-*/
+
 /*
 .navigation_container{
   z-index: 998;
@@ -97,4 +143,4 @@ li.category{
   background: white;
   top: 40px;
 	}
-	*/
+*/

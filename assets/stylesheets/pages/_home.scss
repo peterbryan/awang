@@ -6,7 +6,9 @@
 	list-style-type: none;
 		}
 		background: black;
+
 .navigation{
+
 
 	span[data-ur-tabs-component='button']{
 		position:relative;
@@ -16,14 +18,23 @@
 		width: 100%;
 		border-bottom-style: ridge;
 		padding: 5px;
+		font-weight: bold;
 	}
-}
+	.category-title{
+color:white;
+	}
+	.subcat-title{
+		color:$category_color_1;
+	}
+
 
 //An attempt to remove the broken ALT on the page
 //That is on the promo items.
 
 //.bottom-promo{alt=""}
 }
+}
+
 
 
 

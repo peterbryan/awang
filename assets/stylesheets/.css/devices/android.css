@@ -237,28 +237,64 @@ html, body {
   font-size: 13px;
   line-height: 1.84615em; }
 
-/* line 6, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
-header#mw_header .top-nav .action-set.li a {
+/* line 7, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
+header#mw_header .logo img {
+  margin: 16px 0 0px 10px;
+  text-indent: -900px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -50px; }
+/* line 24, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
+header#mw_header .top-nav .ul.action-set {
   color: white; }
-/* line 13, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
-header#mw_header .search {
-  width: 100%; }
-/* line 19, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
-header#mw_header .navigation {
-  background: white;
-  /*a and span are the clickable rows*/ }
-  /* line 23, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
-  header#mw_header .navigation a, header#mw_header .navigation span {
+/* line 41, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
+header#mw_header .navigation span[data-ur-tabs-component='button'] {
+  position: relative;
+  display: block;
+  background: black;
+  color: #737373;
+  width: 100%;
+  border-bottom-style: ridge;
+  padding: 5px;
+  font-weight: bold; }
+/* line 51, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
+header#mw_header .navigation .category-title {
+  color: white; }
+/* line 54, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
+header#mw_header .navigation .subcat-title {
+  color: #737373; }
+
+/*
+ ATTEMPTINT TO BLOCK OUT THE BOTTOM
+
+//  background: white;
+  //a and span are the clickable rows
+  //
+  
+  a, span {
+    //color: $category_color_1;
     display: block;
     padding: 5px;
-    width: 100%; }
-  /* line 33, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header */
-  header#mw_header .navigation li.category span[data-ur-tabs-component='button'] {
-    position: relative;
-    display: block;
-    background: black;
-    color: #737373;
-    width: 100%; }
+    width: 100%;
+  }
+li.category{
+	//ul{
+	//list-style-type: none;
+	//	}
+	span[data-ur-tabs-component='button']{
+		position:relative;
+		display: block;
+		background: black;
+		color: $category_color_1;
+		width: 100%;
+	}
+}
+}
+
+
+
 
 /* Examples from Coast Stores - buttons.
   li.level_1 {
@@ -302,7 +338,7 @@ header#mw_header .navigation {
     border-bottom: 0px solid red  !important;
   }
 }
-*/
+
 /*
 .navigation_container{
   z-index: 998;
@@ -311,7 +347,7 @@ header#mw_header .navigation {
   background: white;
   top: 40px;
 	}
-	*/
+*/
 
 /* line 3, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home */
 .mw_home {
@@ -319,7 +355,7 @@ header#mw_header .navigation {
   /* line 5, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home */
   .mw_home ul {
     list-style-type: none; }
-  /* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home */
+  /* line 13, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home */
   .mw_home .navigation span[data-ur-tabs-component='button'] {
     position: relative;
     display: block;
@@ -327,4 +363,11 @@ header#mw_header .navigation {
     color: #737373;
     width: 100%;
     border-bottom-style: ridge;
-    padding: 5px; }
+    padding: 5px;
+    font-weight: bold; }
+  /* line 23, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home */
+  .mw_home .navigation .category-title {
+    color: white; }
+  /* line 26, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home */
+  .mw_home .navigation .subcat-title {
+    color: #737373; }
