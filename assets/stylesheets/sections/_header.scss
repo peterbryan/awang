@@ -1,38 +1,91 @@
-header#mw_header {
+#mw_header {
 //removing the bullets in unordered lists.
- 
+ul{
+    list-style-type: none;
+  }
+  //Background color
+ background: black;
 
 
-//attempting to manipulate logo properties, including centering it
 .logo img {
-    //width: 140px;
-    //height: 20px;
-    //display: block;
-    margin: 16px 0 0px 10px;
-    text-indent: -900px;
-    position:fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -50px;
+  //width: 140px;
+  //height: 20px;
+  //display: block;
+  //margin: 16px 0 0px 10px;
+  //position:fixed;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 10px;
+  
+}
+.selectedCountry{
+  color:white;
 }
 
 
 
-.top-nav{
-	
-.ul.action-set{
-	color: white;
-//^^^^Attempting to change the color of the font for these links
-//If I can change the color of this I can manipualte the header
-	}
+.action-set .link a{
+  color: white;
 }
+.action-set {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 4;
+}
+
+//Making the links in the header into buttons
+.action-set li{
+  //border-style: outset;
+  padding: 10px;
+}
+
+
+//Here we will edit the properties of the icons used in CSS as they are fonts
+
+//The Shopping cart
+.icon-shopping-cart{
+  color:$link_color;
+  font-size:25px;
+}
+.icon-globe{
+color: $link_color;
+font-size: 25px;
+}
+.icon-gift{
+color: $link_color;
+font-size: 25px;
+}
+.icon-check-sign{
+color: $link_color;
+font-size: 25px;
+}
+.icon-user{
+color: $link_color;
+font-size: 25px;
+}
+
+//Menu Icon
+.icon-th-list{
+color: $link_color;
+font-size: 25px;
+}
+
+
+
+
+
+//.mw_header.a.logo{
+  //   background:  url("http://jscssecaw.ctscdn.com/content/images/logo.png");
+   //}
+
 
 .botom-promo-item{
 //	ALT="NONE"
 //This is an attempt to remove the broken ALT Style on Alexanderwang.
-}
+  }
 
+  
 
 .navigation{
 

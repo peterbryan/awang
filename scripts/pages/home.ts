@@ -10,4 +10,7 @@ $("./body"){
 		remove("./*[class='carousel']")
 		**/
 	}
+	$('//*[@id="main"]/ul[@class="bottom-promo"]'){
+		 remove()
+	}
 }

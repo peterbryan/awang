@@ -2,7 +2,7 @@
 // @import "globals/_reset";
 
 // Base file contains all the global styles
-@import "globals/_base";
+@import "globals/_base.scss";
 
 // File for global Uranium stylings
 @import "globals/_uranium.scss";
@@ -11,9 +11,9 @@
 @import "globals/_variables.scss";
 
 // Header & Footer
-@import "sections/_header";
-@import "sections/_footer";
+@import "sections/_header.scss";
+@import "sections/_footer.scss";
 
 // Pages
-@import "pages/_home";
+@import "pages/_home.scss";
 
