@@ -1,3 +1,22 @@
-footer._footer {
+#mw_footer {
+ul{
+    list-style-type: none;
+  }
+    //Background color
+ background: black;
+}
 
+.icon-twitter-sign{
+color: $link_color;
+font-size: 25px;
+}
+
+.icon-facebook-sign{
+color: $link_color;
+font-size: 25px;
+}
+
+.icon-envelope-alt{
+color: $link_color;
+font-size: 25px;
 }

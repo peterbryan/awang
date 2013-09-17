@@ -20,6 +20,7 @@ ul{
 }
 .selectedCountry{
   color:white;
+  font-size: 10px;
 }
 
 
@@ -29,14 +30,16 @@ ul{
 }
 .action-set {
   color: white;
-  display: flex;
+  display: -webkit-flex;
+  webkit-flex-direction:row;
+justify-content: space-around;
   flex-flow: row wrap;
   flex: 4;
 }
 
 //Making the links in the header into buttons
 .action-set li{
-  //border-style: outset;
+  border-style: outset;
   padding: 10px;
 }
 

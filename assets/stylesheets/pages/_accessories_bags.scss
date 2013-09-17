@@ -1,0 +1,51 @@
+.mw_accessories{
+
+	background-color: black;
+
+
+
+	ul.breadcrumbs{
+		color:white;
+		list-style-type: none;
+
+		h1.link-a a{
+			color:white;
+		}
+
+	}
+
+	//here I change the style opacity to one
+
+		div.product-info style{
+			style:none;
+			opacity: 1.0;
+	}
+
+
+
+	  div .view-header clearfix{
+	  	ul{
+	  		list-style-type: none;
+	  	}
+	  }
+
+	  li.cell product {
+	  	margin: 35px;
+	  }
+
+
+
+	//remove the second image
+	.product-image-altimg {
+			display: none;
+		}
+
+	div .product-name{
+		color: white;	
+	}
+
+	.product-price {
+		color: white;
+		}
+
+}

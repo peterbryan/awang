@@ -58,13 +58,13 @@ $('.//ul[@class="action-set"]'){
     $("//*[@id='mw_header']/ul/li[7]"){
       remove()
     }
-    $("//*[@id='mw_header']/ul/li[4]"){
-      remove()
+    $("//*[@id='mw_header']/ul/li[6]"){
+    remove()
     }
     $("//*[@id='mw_header']/ul/li[5]"){ 
     remove()  
     }
-    $("//*[@id='mw_header']/ul/li[6]"){ 
+    $("//*[@id='mw_header']/ul/li[4]"){ 
     remove()  
     }
     $("//*[@id='mw_header']/ul/li[3]"){ 
@@ -73,7 +73,8 @@ $('.//ul[@class="action-set"]'){
     $("//*[@id='mw_header']/ul/li[8]"){ 
     remove()  
     }
-    
+////I need to figure out how to move elements of 
+// a list arround.
     
 
   }
