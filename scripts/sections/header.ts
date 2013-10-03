@@ -4,7 +4,6 @@ $("./head"){
 
 $("./body") {
 
-
 //Header Top Menu
 insert_top('div', id: 'mw_header'){
   move_here('//a[@class="logo"]')
@@ -14,11 +13,11 @@ insert_top('div', id: 'mw_header'){
   $$(".a.logo"){
     attribute("src","http://jscssecaw.ctscdn.com/content/images/logo.png")
   }
-}
 
 $$("a.logo"){
   inner("")
   insert("img",src: "http://jscssecaw.ctscdn.com/content/images/logo.png")
+  }
 }
 
 $('.//ul[@class="action-set"]'){
@@ -29,9 +28,12 @@ $('.//ul[@class="action-set"]'){
       //there is only one 'action' element in the list
       //to avoid duplicates.
 
-      $("./li[@class='action']"){
-      inject("<li><i class='icon-th-list'></i> Menu</li>")
-    }
+      //Update: When user goes to a specific item, there is more than one
+      //action element.
+
+      //$("./li[@class='action']"){
+      inject("<li class='link'><i class='icon-th-list'></i> Menu</li>")
+    
     //The Icons Being Added to action-set Go Here
     $$("a.change-country_link"){
       inject_at(position('before'), "<i class='icon-globe'></i>  ")
@@ -76,7 +78,6 @@ $('.//ul[@class="action-set"]'){
 ////I need to figure out how to move elements of 
 // a list arround.
     
-
   }
   $('.//div[@class="middle-nav"]'){
   //The Main logo in black font
@@ -85,7 +86,6 @@ $('.//ul[@class="action-set"]'){
 
   } 
 }
-
 
 
 //Here I forcefully added the Header from coast-stores master
@@ -127,8 +127,6 @@ $('.//ul[@class="action-set"]'){
       move_here("//li[@id='topnav_storefinder']"){
         name('div')
       }
-
-      
       ######
       # MENU
       ######
@@ -180,7 +178,6 @@ $('.//ul[@class="action-set"]'){
   }
   #end fix
 
-
   ############
   # NAVIGATION
   ############
@@ -223,14 +220,7 @@ $('.//ul[@class="action-set"]'){
     #CLEAN UP NAV
     remove(".//div[contains(@class, 'post_column')]")
     remove(".//div[contains(@class, 'level_3')]")
-
-    # #should remove the 'in the press image - the selector has no specific id so if the <li> gets reorderd it will break'
-    # remove('//*[@id="dept_features"]/ul/li[6]')
-
-    # #remove the 'A FRESH COATING' img in the feature tab
-    # remove('//*[@id="dept_features"]/ul/li[4]')
   }
-
-
-
 }
+
+

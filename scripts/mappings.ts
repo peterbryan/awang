@@ -19,14 +19,20 @@ match($status) {
 
     match($path) {
       with(/^\/$|^\/\?/) {
-        log("--> Importing pages/home.ts in mappings.ts")
+        log('--> Importing pages home.ts in mappings.ts')
         @import pages/home.ts
       }
+
+    with(/shop\/accessories\/bags\/classics\/205160\/rockie-in-soft-black-with-pale-gold/){
+        log("============--> Importing rockiepalegold.ts in mappings.ts ===============")
+        @import pages/rockiepalegold.ts
+      }
       ###########################################
-      with(/shop\/accessories/){
+      with(/shop\/(accessories|something|somethingelse)/){
         log("============--> Importing accessories.ts in mappings.ts ===============")
         @import pages/accessories.ts
       }
+      #######################################
 
       else() {
         log("--> No page match in mappings.ts")

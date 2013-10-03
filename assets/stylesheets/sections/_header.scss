@@ -24,17 +24,17 @@ ul{
 }
 
 
-
 .action-set .link a{
   color: white;
 }
 .action-set {
   color: white;
   display: -webkit-flex;
-  webkit-flex-direction:row;
+  //webkit-flex-direction:column;
 justify-content: space-around;
   flex-flow: row wrap;
   flex: 4;
+  margin-bottom: 0;
 }
 
 //Making the links in the header into buttons
@@ -92,8 +92,6 @@ font-size: 25px;
 
 .navigation{
 
-
-
 	span[data-ur-tabs-component='button']{
 		position:relative;
 		display: block;
@@ -104,16 +102,17 @@ font-size: 25px;
 		padding: 5px;
 		font-weight: bold;
 	}
+
 	.category-title{
 color:white;
 	}
 	.subcat-title{
 		color:$category_color_1;
-	}
+	 }
+  }//navigation end
+}
 
-						}//navigation end
 
-} //main end bracket
 
 
 

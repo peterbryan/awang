@@ -2,6 +2,10 @@
 #./ x path selector
 
 $("./body"){
+	  $('.//div[@class="main-logo"]')
+  {
+    remove();
+  }
 	add_class("mw_home")
 	$$("#main"){
 		remove(css(".carousel"))	
