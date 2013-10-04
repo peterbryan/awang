@@ -7,17 +7,47 @@ ul{
  background: black;
 
 
+
+
+///////////
+///Menu Button///
+
+ .mw_menu{
+  font: bold 12px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    width: 35px;
+    height:16px;
+   }
+//   display: block;
+//   height:15px;
+//   width:45px;
+//   background:#dddddd;
+//   border: 5px solid rgba(33, 68, 72, 0.59);
+//   //color:white;
+
+
+
+
+///////////
 .logo img {
-  //width: 140px;
+  width: 290px;
   //height: 20px;
   //display: block;
   //margin: 16px 0 0px 10px;
-  //position:fixed;
-  top: 50%;
-  left: 50%;
+  //position:fixed
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
   padding-bottom: 10px;
-  
 }
+
 .selectedCountry{
   color:white;
   font-size: 10px;
@@ -76,19 +106,12 @@ font-size: 25px;
 
 
 
+ .navigation .subcat-title {
 
+      display:block;
+      background-color:white;
 
-//.mw_header.a.logo{
-  //   background:  url("http://jscssecaw.ctscdn.com/content/images/logo.png");
-   //}
-
-
-.botom-promo-item{
-//	ALT="NONE"
-//This is an attempt to remove the broken ALT Style on Alexanderwang.
   }
-
-  
 
 .navigation{
 
@@ -103,99 +126,10 @@ font-size: 25px;
 		font-weight: bold;
 	}
 
+
 	.category-title{
 color:white;
 	}
-	.subcat-title{
-		color:$category_color_1;
-	 }
-  }//navigation end
-}
 
-
-
-
-
-
- /*
- ATTEMPTINT TO BLOCK OUT THE BOTTOM
-
-//  background: white;
-  //a and span are the clickable rows
-  //
-  
-  a, span {
-    //color: $category_color_1;
-    display: block;
-    padding: 5px;
-    width: 100%;
   }
-li.category{
-	//ul{
-	//list-style-type: none;
-	//	}
-	span[data-ur-tabs-component='button']{
-		position:relative;
-		display: block;
-		background: black;
-		color: $category_color_1;
-		width: 100%;
-	}
-}
-}
-
-
-
-
-/* Examples from Coast Stores - buttons.
-  li.level_1 {
-    span[data-ur-tabs-component='button'] {
-      position: relative;
-      color: $category_color_1;
-      display: block;
-      text-transform: uppercase;
-      border-bottom: 1px solid $mw_default_border;
-      &:after {
-       // @include toggler_down;
-      }
-      &[data-ur-state='enabled'] {
-        &:after {
-          @include transform(rotate(180deg));
-        }
-      }
-    }
-
-
-     
-    
-    ul.level_2 {
-     // background-color: $mw_list_background;
-      //border: 1px solid $mw_list_border;
-      padding:0 10px;
-      li+li.level_2{
-       // border-top: 1px dotted $mw_list_border;
-      }
-      li.level_2 {
-        a {
-          &:after {
-          //  @include toggler_right;
-          }
-        }
-      }
-    }
-  }
-
-  li.mw_bottom span {
-    border-bottom: 0px solid red  !important;
-  }
-}
-
-/*
-.navigation_container{
-  z-index: 998;
-  position: absolute;
-  width: 100%;
-  background: white;
-  top: 40px;
-	}
-*/
+}//navigation end

@@ -7,7 +7,8 @@ $("./body") {
 //Header Top Menu
 insert_top('div', id: 'mw_header'){
   move_here('//a[@class="logo"]')
-  move_here('//ul[@class="action-set"]')
+  move_here('//div[@class="mw_menu"')
+  //move_here('//ul[@class="action-set"]')
   //flexbox: css attribute for css layouts
   //attempt to make the logo into an actual logo;
   $$(".a.logo"){
@@ -18,7 +19,26 @@ $$("a.logo"){
   inner("")
   insert("img",src: "http://jscssecaw.ctscdn.com/content/images/logo.png")
   }
+// }
+
+
+//Adding the Menu Button
+
+    insert("div", class: "mw_menu") {
+        attributes(data-ur-toggler-component: "button")
+        text("Menu")
+          }
+    insert('div'){
+      attributes(
+          data-ur-toggler-component: "content",
+          class: "navigation_container"
+              )
+        }
 }
+
+////////////
+
+
 
 $('.//ul[@class="action-set"]'){
   //Menu Icon being added just after the acion-set
@@ -31,8 +51,6 @@ $('.//ul[@class="action-set"]'){
       //Update: When user goes to a specific item, there is more than one
       //action element.
 
-      //$("./li[@class='action']"){
-      inject("<li class='link'><i class='icon-th-list'></i> Menu</li>")
     
     //The Icons Being Added to action-set Go Here
     $$("a.change-country_link"){

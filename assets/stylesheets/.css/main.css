@@ -244,19 +244,34 @@ html, body {
   /* line 3, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header ul {
     list-style-type: none; }
-  /* line 10, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 15, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  #mw_header .mw_menu {
+    font: bold 12px Arial;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #cccccc;
+    width: 35px;
+    height: 16px; }
+  /* line 39, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .logo img {
-    top: 50%;
-    left: 50%;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 10px; }
-  /* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 51, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .selectedCountry {
     color: white;
     font-size: 10px; }
-  /* line 27, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 57, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .action-set .link a {
     color: white; }
-  /* line 30, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 60, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .action-set {
     color: white;
     display: -webkit-flex;
@@ -264,35 +279,39 @@ html, body {
     flex-flow: row wrap;
     flex: 4;
     margin-bottom: 0; }
-  /* line 41, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 71, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .action-set li {
     border-style: outset;
     padding: 10px; }
-  /* line 50, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 80, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .icon-shopping-cart {
     color: #336699;
     font-size: 25px; }
-  /* line 54, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 84, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .icon-globe {
     color: #336699;
     font-size: 25px; }
-  /* line 58, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 88, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .icon-gift {
     color: #336699;
     font-size: 25px; }
-  /* line 62, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 92, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .icon-check-sign {
     color: #336699;
     font-size: 25px; }
-  /* line 66, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 96, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .icon-user {
     color: #336699;
     font-size: 25px; }
-  /* line 72, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 102, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .icon-th-list {
     color: #336699;
     font-size: 25px; }
-  /* line 95, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 109, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  #mw_header .navigation .subcat-title {
+    display: block;
+    background-color: white; }
+  /* line 118, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .navigation span[data-ur-tabs-component='button'] {
     position: relative;
     display: block;
@@ -302,114 +321,30 @@ html, body {
     border-bottom-style: ridge;
     padding: 5px;
     font-weight: bold; }
-  /* line 106, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
+  /* line 130, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
   #mw_header .navigation .category-title {
     color: white; }
-  /* line 109, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_header.scss */
-  #mw_header .navigation .subcat-title {
-    color: #737373; }
 
-/*
- ATTEMPTINT TO BLOCK OUT THE BOTTOM
-
-//  background: white;
-  //a and span are the clickable rows
-  //
-  
-  a, span {
-    //color: $category_color_1;
-    display: block;
-    padding: 5px;
-    width: 100%;
-  }
-li.category{
-	//ul{
-	//list-style-type: none;
-	//	}
-	span[data-ur-tabs-component='button']{
-		position:relative;
-		display: block;
-		background: black;
-		color: $category_color_1;
-		width: 100%;
-	}
-}
-}
-
-
-
-
-/* Examples from Coast Stores - buttons.
-  li.level_1 {
-    span[data-ur-tabs-component='button'] {
-      position: relative;
-      color: $category_color_1;
-      display: block;
-      text-transform: uppercase;
-      border-bottom: 1px solid $mw_default_border;
-      &:after {
-       // @include toggler_down;
-      }
-      &[data-ur-state='enabled'] {
-        &:after {
-          @include transform(rotate(180deg));
-        }
-      }
-    }
-
-
-     
-    
-    ul.level_2 {
-     // background-color: $mw_list_background;
-      //border: 1px solid $mw_list_border;
-      padding:0 10px;
-      li+li.level_2{
-       // border-top: 1px dotted $mw_list_border;
-      }
-      li.level_2 {
-        a {
-          &:after {
-          //  @include toggler_right;
-          }
-        }
-      }
-    }
-  }
-
-  li.mw_bottom span {
-    border-bottom: 0px solid red  !important;
-  }
-}
-
-/*
-.navigation_container{
-  z-index: 998;
-  position: absolute;
-  width: 100%;
-  background: white;
-  top: 40px;
-	}
-*/
 /* line 1, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
 #mw_footer {
   background: black;
-  margin-top: none; }
+  margin-top: none;
+  text-align: center; }
   /* line 3, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
   #mw_footer ul {
     list-style-type: none; }
 
-/* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
+/* line 13, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
 .icon-twitter-sign {
   color: #336699;
   font-size: 25px; }
 
-/* line 16, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
+/* line 18, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
 .icon-facebook-sign {
   color: #336699;
   font-size: 25px; }
 
-/* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
+/* line 23, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/sections/_footer.scss */
 .icon-envelope-alt {
   color: #336699;
   font-size: 25px; }
@@ -437,7 +372,12 @@ li.category{
     color: #737373; }
   /* line 26, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/_home.scss */
   .mw_home .navigation .subcat-title {
-    color: #737373; }
+    color: #737373;
+    background-color: white;
+    display: block;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px; }
 
 /* line 1, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/_accessories_bags.scss */
 .mw_accessories {
@@ -480,8 +420,33 @@ li.category{
     height: 100px;
     width: 100px; }
   /* line 15, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+  .mw_item div.controls ul {
+    list-style-type: none; }
+  /* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+  .mw_item div.clear ul {
+    list-style-type: none; }
+  /* line 26, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
   .mw_item #product-left {
     color: white; }
-  /* line 24, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+    /* line 30, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+    .mw_item #product-left img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  /* line 41, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
   .mw_item #product-right div.product-information {
     color: white; }
+  /* line 46, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+  .mw_item #product-right div.product-alt {
+    color: white; }
+    /* line 47, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+    .mw_item #product-right div.product-alt h3 {
+      text-align: center; }
+    /* line 50, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+    .mw_item #product-right div.product-alt ul {
+      list-style-type: none; }
+    /* line 53, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+    .mw_item #product-right div.product-alt img.cross-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
