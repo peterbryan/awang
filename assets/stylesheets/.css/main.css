@@ -450,3 +450,9 @@ html, body {
       display: block;
       margin-left: auto;
       margin-right: auto; }
+  /* line 60, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/pages/rockiepalegold.scss */
+  .mw_item #product-right #product_options {
+    color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #737373; }

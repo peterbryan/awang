@@ -57,8 +57,14 @@ div.clear{
 				}
 			color:white;
 		}
-		
-	}
+#product_options{
+			color:white;
+			border-style: solid;
+			border-width:4px;
+			border-color: $category_color_1;
+		}
+
+	}//end product right
 
 
 }

@@ -7,7 +7,10 @@ $("./body") {
 //Header Top Menu
 insert_top('div', id: 'mw_header'){
   move_here('//a[@class="logo"]')
-  move_here('//div[@class="mw_menu"')
+  move_here('//div[@class="mw_menu"]'){
+    //added this 10/7/13
+    //attribute("data-ur-set", "toggler")
+    }
   //move_here('//ul[@class="action-set"]')
   //flexbox: css attribute for css layouts
   //attempt to make the logo into an actual logo;
@@ -24,16 +27,12 @@ $$("a.logo"){
 
 //Adding the Menu Button
 
-    insert("div", class: "mw_menu") {
-        attributes(data-ur-toggler-component: "button")
-        text("Menu")
-          }
-    insert('div'){
-      attributes(
-          data-ur-toggler-component: "content",
-          class: "navigation_container"
-              )
-        }
+    //insert('div'){
+      //attributes(
+      //data-ur-toggler-component: "content",
+        // class: "navigation_container"
+          //   )
+       // }
 }
 
 ////////////
@@ -114,7 +113,7 @@ $('.//ul[@class="action-set"]'){
   ##########
   # <HEADER>
   ##########
-  move_here(".//div[@id='header'][1]", "top") {
+  move_here(".//div[@id='mw_header'][1]", "top") {
     log("==================== >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     name("header")
     attributes(id: "mw_header")
@@ -157,6 +156,12 @@ $('.//ul[@class="action-set"]'){
           data-ur-toggler-component: "content",
           class: "navigation_container"
           )
+        move_here(".//div[@id='container']//div[@class='global-nav']//ul[contains(@class, 'category')]")
+        text('testing')
+        ###################################
+        //Add Menu Here
+        ###################################
+
         #####
         # NAV
         #####
@@ -206,6 +211,10 @@ $('.//ul[@class="action-set"]'){
       data-ur-closeable: "true",
       class: "navigation"
       )
+    
+    //added this 10/7/13
+    //attribute('data-ur-toggler-component="content"')
+   
 
     #LEVEL 1
     $("./li[last()]") {
