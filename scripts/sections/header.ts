@@ -205,7 +205,16 @@ $('.//ul[@class="action-set"]'){
   ############
   # NAVIGATION
   ############
-  $(".//div[@id='container']//div[@class='global-nav']//ul[contains(@class, 'category')]") {
+
+
+
+
+
+
+  
+  //formerly
+// $(".//div[@id='container']//div[@class='global-nav']//ul[contains(@class, 'category')]") {
+  $(".//div[@class='global-nav']//ul[contains(@class, 'category')]") {
     attributes(
       id: "mw_navigation",
       data-ur-set: "tabs",
@@ -213,8 +222,6 @@ $('.//ul[@class="action-set"]'){
       class: "navigation"
       )
     
-    //added this 10/7/13
-    //attribute('data-ur-toggler-component="content"')
    
 
     #LEVEL 1

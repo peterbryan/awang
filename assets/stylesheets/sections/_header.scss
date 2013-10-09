@@ -7,7 +7,7 @@ ul{
  background: black;
 
 .global-nav{
-  color:$category_color_1;
+  color:blue;
   .subcat-title{
     display:block;
     color:$category_color_1;
@@ -16,6 +16,10 @@ ul{
     background-color: white;
     border-width: 2px;
     }
+  .category-title{
+    font-weight: bold;
+    color:$category_color_1;
+  }
 }
 
 
@@ -137,20 +141,22 @@ ul{
 
   .navigation{
 
-	 span[data-ur-tabs-component='button']{
-	 	position:relative;
-	 	display: block;
-	 	background: black;
-	 	color: $category_color_1;
-	 	width: 100%;
-	 	border-bottom-style: ridge;
-	 	padding: 5px;
-	 	font-weight: bold;
-	 }
+    span[data-ur-tabs-component='button']{
+      //if it expands, add a symbol to show that it expands
+    }
+	   .category-title{
+      position:relative;
+      display: block;
+      background: $bg_box;
+      border-style: solid;
+      color: $category_color_1;
+      width: 100%;
+      border-bottom-style: none;
+      padding: 5px;
+      font-weight: bold;
+      border-width: 2px;
+    }
 
 
-	 .category-title{
-     color:white;
-	 }
 
   }//navigation end

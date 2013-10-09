@@ -246,7 +246,7 @@ html, body {
     list-style-type: none; }
   /* line 9, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
   #mw_header .global-nav {
-    color: #737373; }
+    color: blue; }
     /* line 11, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
     #mw_header .global-nav .subcat-title {
       display: block;
@@ -255,7 +255,11 @@ html, body {
       padding: 5px;
       background-color: white;
       border-width: 2px; }
-  /* line 27, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+    /* line 19, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+    #mw_header .global-nav .category-title {
+      font-weight: bold;
+      color: #737373; }
+  /* line 31, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
   #mw_header .mw_menu {
     font: bold 12px Arial;
     text-decoration: none;
@@ -268,17 +272,17 @@ html, body {
     border-left: 1px solid #cccccc;
     width: 35px;
     height: 16px; }
-  /* line 52, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+  /* line 56, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
   #mw_header .logo img {
     width: 290px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px; }
-  /* line 66, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+  /* line 70, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
   #mw_header .action-set .link a {
     color: white; }
-  /* line 69, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+  /* line 73, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
   #mw_header .action-set {
     color: white;
     display: -webkit-flex;
@@ -286,61 +290,60 @@ html, body {
     flex-flow: row wrap;
     flex: 4;
     margin-bottom: 0; }
-  /* line 80, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+  /* line 84, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
   #mw_header .action-set li {
     border-style: outset;
     padding: 10px; }
 
-/* line 92, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 96, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .selectedCountry {
   color: white;
   font-size: 10px; }
-/* line 97, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 101, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .icon-shopping-cart {
   color: #336699;
   font-size: 25px; }
-/* line 101, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 105, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .icon-globe {
   color: #336699;
   font-size: 25px; }
-/* line 105, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 109, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .icon-gift {
   color: #336699;
   font-size: 25px; }
-/* line 109, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 113, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .icon-check-sign {
   color: #336699;
   font-size: 25px; }
-/* line 113, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 117, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .icon-user {
   color: #336699;
   font-size: 25px; }
-/* line 119, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 123, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav .icon-th-list {
   color: #336699;
   font-size: 25px; }
-/* line 125, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 129, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .top-nav ul {
   list-style-type: none; }
 
-/* line 131, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+/* line 135, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
 .navigation .subcat-title {
   display: block;
   background-color: white; }
 
-/* line 140, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
-.navigation span[data-ur-tabs-component='button'] {
+/* line 147, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
+.navigation .category-title {
   position: relative;
   display: block;
-  background: black;
+  background: #5c5c5c;
+  border-style: solid;
   color: #737373;
   width: 100%;
-  border-bottom-style: ridge;
+  border-bottom-style: none;
   padding: 5px;
-  font-weight: bold; }
-/* line 152, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_header.scss */
-.navigation .category-title {
-  color: white; }
+  font-weight: bold;
+  border-width: 2px; }
 
 /* line 1, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../sections/_footer.scss */
 #mw_footer {
@@ -372,22 +375,19 @@ html, body {
   /* line 4, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home.scss */
   .mw_home ul {
     list-style-type: none; }
-  /* line 10, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home.scss */
-  .mw_home .navigation span[data-ur-tabs-component='button'] {
+  /* line 29, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home.scss */
+  .mw_home .navigation .category-title {
     position: relative;
     display: block;
-    background: black;
+    background: #5c5c5c;
+    border-style: solid;
     color: #737373;
     width: 100%;
-    border-bottom-style: ridge;
+    border-bottom-style: none;
     padding: 5px;
-    font-weight: bold; }
-  /* line 21, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home.scss */
-  .mw_home .navigation .category-title {
-    border-bottom-style: ridge;
     font-weight: bold;
-    color: #737373; }
-  /* line 26, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home.scss */
+    border-width: 2px; }
+  /* line 42, /Users/peterbryanr/Desktop/Moovweb Files/demos/wang/assets/stylesheets/devices/../pages/_home.scss */
   .mw_home .navigation .subcat-title {
     color: #737373;
     background-color: white;
