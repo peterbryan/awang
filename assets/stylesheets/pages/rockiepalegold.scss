@@ -41,6 +41,16 @@ div.clear{
 		div.product-information
 		{
 			color:white;
+
+			ul{list-style-type: none;}
+				li{
+					list-style-type:none;
+					margin:10px;
+				
+					}
+			.product-name{
+						color:white;
+						}
 		}
 		//the Recommended Products
 		div.product-alt{

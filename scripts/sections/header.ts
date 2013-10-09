@@ -2,6 +2,10 @@ $("./head"){
   inject('<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">"')
 }
 
+$('.//body[@class="body-landing body-landing_index mw_home"]')
+{
+  remove()
+}
 $("./body") {
 
 //Header Top Menu
@@ -130,20 +134,20 @@ $('.//ul[@class="action-set"]'){
       attributes(data-ur-set: "toggler")
       
 
-      #############
-      # MINI BASKET
-      #############
-      move_here("//div[@id='mini_basket']"){
-        $('./a'){
-          inner('Bag')
-        }
-      }
-      ##############
-      # STORE FINDER
-      ##############
-      move_here("//li[@id='topnav_storefinder']"){
-        name('div')
-      }
+      # #############
+      # # MINI BASKET
+      # #############
+      # move_here("//div[@id='mini_basket']"){
+      #   $('./a'){
+      #     inner('Bag')
+      #   }
+      # }
+      # ##############
+      # # STORE FINDER
+      # ##############
+      # move_here("//li[@id='topnav_storefinder']"){
+      #   name('div')
+      # }
       ######
       # MENU
       ######
@@ -156,11 +160,8 @@ $('.//ul[@class="action-set"]'){
           data-ur-toggler-component: "content",
           class: "navigation_container"
           )
-        move_here(".//div[@id='container']//div[@class='global-nav']//ul[contains(@class, 'category')]")
-        text('testing')
-        ###################################
-        //Add Menu Here
-        ###################################
+        copy_here("//div[@class='global-nav']")
+
 
         #####
         # NAV

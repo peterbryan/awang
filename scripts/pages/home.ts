@@ -29,8 +29,8 @@ $('.//div[@id="container"]'){
         attribute('data-ur-autoscroll', 'enabled')
         attribute('data-ur-vertical-scroll', 'enabled')
         attribute("data-ur-fill", "1")
-
-        $('./div[@id="banner_imgs"]') {
+        
+        $('.//div[@class="main-promo-item-image"]') {
         #insert('div', id: 'banner_imgs') {
           attribute('data-ur-carousel-component', 'scroll_container')
           attribute('data-ur-id', 'hero_carousel')

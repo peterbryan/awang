@@ -1,6 +1,5 @@
-$("./body") {
+	$("./body") {
 //attempt to remove the extra quotes that load
-
 
 
 //removing the space between the Header and the search bar

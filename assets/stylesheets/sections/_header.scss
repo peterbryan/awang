@@ -6,6 +6,18 @@ ul{
   //Background color
  background: black;
 
+.global-nav{
+  color:$category_color_1;
+  .subcat-title{
+    display:block;
+    color:$category_color_1;
+    border-style: solid;
+    padding: 5px;
+    background-color: white;
+    border-width: 2px;
+    }
+}
+
 
 
 
@@ -13,7 +25,7 @@ ul{
 ///Menu Button///
 
  .mw_menu{
-  font: bold 12px Arial;
+    font: bold 12px Arial;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
@@ -25,6 +37,7 @@ ul{
     width: 35px;
     height:16px;
    }
+
 //   display: block;
 //   height:15px;
 //   width:45px;
@@ -36,100 +49,108 @@ ul{
 
 
 ///////////
-.logo img {
-  width: 290px;
-  //height: 20px;
-  //display: block;
-  //margin: 16px 0 0px 10px;
-  //position:fixed
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  padding-bottom: 10px;
-}
-
-.selectedCountry{
-  color:white;
-  font-size: 10px;
-}
+  .logo img {
+    width: 290px;
+    //height: 20px;
+    //display: block;
+    //margin: 16px 0 0px 10px;
+    //position:fixed
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 10px;
+  }
 
 
-.action-set .link a{
-  color: white;
-}
-.action-set {
-  color: white;
-  display: -webkit-flex;
-  //webkit-flex-direction:column;
-justify-content: space-around;
-  flex-flow: row wrap;
-  flex: 4;
-  margin-bottom: 0;
-}
+
+    .action-set .link a{
+      color: white;
+    }
+  .action-set {
+    color: white;
+    display: -webkit-flex;
+    //webkit-flex-direction:column;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex: 4;
+    margin-bottom: 0;
+  }
 
 //Making the links in the header into buttons
-.action-set li{
-  border-style: outset;
-  padding: 10px;
-}
+  .action-set li{
+    border-style: outset;
+    padding: 10px;
+  }
 
+
+
+}//mw_header end
 
 //Here we will edit the properties of the icons used in CSS as they are fonts
+.top-nav{
 
+  .selectedCountry{
+    color:white;
+    font-size: 10px;
+  }
 //The Shopping cart
-.icon-shopping-cart{
-  color:$link_color;
-  font-size:25px;
-}
-.icon-globe{
-color: $link_color;
-font-size: 25px;
-}
-.icon-gift{
-color: $link_color;
-font-size: 25px;
-}
-.icon-check-sign{
-color: $link_color;
-font-size: 25px;
-}
-.icon-user{
-color: $link_color;
-font-size: 25px;
-}
-
-//Menu Icon
-.icon-th-list{
-color: $link_color;
-font-size: 25px;
-}
-
-
-
- .navigation .subcat-title {
-
-      display:block;
-      background-color:white;
-
+  .icon-shopping-cart{
+    color:$link_color;
+    font-size:25px;
+  }
+  .icon-globe{
+    color: $link_color;
+    font-size: 25px;
+  }
+  .icon-gift{
+    color: $link_color;
+    font-size: 25px;
+  }
+  .icon-check-sign{
+    color: $link_color;
+    font-size: 25px;
+  }
+  .icon-user{
+    color: $link_color;
+    font-size: 25px;
   }
 
-.navigation{
+    //Menu Icon
+    .icon-th-list{
+      color: $link_color;
+      font-size: 25px;
+    }
 
-	span[data-ur-tabs-component='button']{
-		position:relative;
-		display: block;
-		background: black;
-		color: $category_color_1;
-		width: 100%;
-		border-bottom-style: ridge;
-		padding: 5px;
-		font-weight: bold;
-	}
+    //remove bullets from top-nav
+    ul{
+      list-style-type: none;
+      }
+
+}//top-nav end
+
+  .navigation .subcat-title {
+
+       display:block;
+        background-color:white;
+
+      }
+
+  .navigation{
+
+	 span[data-ur-tabs-component='button']{
+	 	position:relative;
+	 	display: block;
+	 	background: black;
+	 	color: $category_color_1;
+	 	width: 100%;
+	 	border-bottom-style: ridge;
+	 	padding: 5px;
+	 	font-weight: bold;
+	 }
 
 
-	.category-title{
-color:white;
-	}
+	 .category-title{
+     color:white;
+	 }
 
-  }
-}//navigation end
+  }//navigation end
