@@ -9,6 +9,8 @@
 	//removal of the main gloval nav
 	remove("//*[@id='container']/div[2]/div[2]")
 
+	remove('//div[@class="view-header clearfix"]/ul[@class="breadcrumbs"]/li[@class="link"]/span[contains(@class, "seperator")]')
+
 	$(".//div[@id='site']"){
 
 		add_class('mw_accessories')

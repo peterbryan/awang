@@ -11,76 +11,50 @@ $("./body"){
 //Carusel Adding it to top of "Container Class"
 /// Which is above of the search bar on main page
 //
-$('.//div[@id="container"]'){
+    $('.//div[@id="container"]'){
+       $(".//div[@class='carousel']"){
+        add_class('mw_hide')
+        add_class('mw_carousel2')
+        }
 
-	insert_top('div', id: 'mw_carousel_wrapper') {
-      attribute('data-ur-set', 'carousel')
-      attribute('data-ur-id', 'hero_carousel') 
-      #attribute('data-ur-state', 'enabled') 
 
-      move_here('//div[@id="mw_hidden_content"]') {
-        remove('.//div[@id="welcome_text"]')
-        attributes(style: "display: block") 
-      # insert('div', id: 'mw_hidden_content') {
-        #attribute('data-ur-set', 'carousel')
-        attribute('data-ur-id', 'hero_carousel') 
-        attribute('data-ur-carousel-component', 'view_container')
-        attribute('data-ur-infinite', 'enabled')
-        attribute('data-ur-autoscroll', 'enabled')
-        attribute('data-ur-vertical-scroll', 'enabled')
-        attribute("data-ur-fill", "1")
-        
-        $('.//div[@class="main-promo-item-image"]') {
-        #insert('div', id: 'banner_imgs') {
-          attribute('data-ur-carousel-component', 'scroll_container')
-          attribute('data-ur-id', 'hero_carousel')
-          attribute('data-ur-vertical-scroll', 'disabled')
+	   insert_top('div', id: 'mw_carousel_wrapper')
+        $('.//div[@id="mw_carousel_wrapper"]')  
+        {
+          attribute('data-ur-set','carousel')
+          attribute('data-ur-id','MainCarousel')
 
-          insert('img', src: asset('http://nl.yoox.biz/newsl/011013_af/130927_f13_rtw_hp_ctg_main.jpg'))
-          # insert('img', src: asset('images/warehouse_hero2.jpg'))
-          # insert('img', data-src: asset('images/warehouse_hero3.jpg'))
-          
-          #insert('a') {
-          $('./a') {
-            add_class(index())
-
-            # hard coded until they provide clean urls
-            # attributes(href: "new-in-garments/dept/fcp-category/list")
-
-            $clean_url = fetch('./@href') {
-              #replace("http://mstage.warehouse.co.uk", "")
-            }
-            attribute('href', $clean_url)
-
-            $('./img') {
-              $x_src = fetch("./@data-src")
+          insert('div',id:'mw_carousel_container'){
+            attribute('data-ur-carousel-component','scroll_container')
+          }
+          insert('div',id:'mw_promotions')    {
+            attribute('data-ur-id','MainCarousel')
+            attribute('data-ur-carousel-component', 'view_container')
+            attribute('data-ur-infinite', 'enabled')
+            attribute('data-ur-autoscroll', 'enabled')
+            attribute('data-ur-vertical-scroll', 'enabled')
+            attribute("data-ur-fill", "1")
+            insert('div', id:'mw_promo_images'){ //new div
+              attribute('data-ur-carousel-component','scroll_container')
+              attribute('data-ur-id','MainCarousel')
+              attribute('data-ur-vertanical-scroll','disabled')
+              move_here("//div[contains(@class, 'mw_carousel2')]//div[@class='main-promo-item-image'][1]/a[1]"){
+                attribute('data-ur-compnent','item')
+              }
+            //insert('img',src: asset('something.jpg')
+          }
               
-              attribute("src", $x_src)
-              # wrap("a") {
-              #   attributes(data-ur-id: 'hero_carousel', data-ur-carousel-component: 'item')
-              # }
-            }
-            wrap('div') {
-              attribute('data-ur-id', 'hero_carousel') 
-              attribute('data-ur-carousel-component', 'item')
-            }
-            
-          } // a href
-        } // banner imgs
-        insert('div', data-ur-carousel-component:'dots')
-      } //hidden_content
+          }// div mw_promotions end           
+      } //Carousel_Wrapper End
+     }//Container End
 
-    # move the search box at the end for the home page only so it is below the hero carousel
-      #move_here('//div[@id="sli_search"]', 'after')
-    } // mw_carousel_wrapper
-   }//end container
-
-
-///////////////////////////////////
+    $("//*[@id='mw_promo_images']/a[2]"){
+        remove()
+        }
 
 
 	$$("#main"){
-		remove(css(".carousel"))	
+		    //remove(css(".carousel"))	
 		##In Xpath 
 		/**
 		remove("./*[class='carousel']")

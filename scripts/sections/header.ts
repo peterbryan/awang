@@ -73,8 +73,17 @@ $('.//ul[@class="action-set"]'){
     remove()
     }
     $("./li[@class='action']/a[contains(@href,'/logon')]"){ 
-      inject_at(position('before'),"<i class='icon-check-sign'></i> ")
+      inject_at(position('before'),"<i class='icon-user'></i> ")
     }
+
+    //Switching the order of the shipping to the US to under the change country link
+    $("./li[@class='link']/p[contains(.,'SHIPPING TO')]"){
+       $("./li[@class='link']/p[@Class='selectedCountry']/*"){
+        move_to('..' , "bottom")
+      }
+    }
+
+
     //we're also going to remove empty dividers
     //listed where this menu is at
 

@@ -2,6 +2,7 @@
 //removing the bullets in unordered lists.
 ul{
     list-style-type: none;
+    margin-left: 0px;
   }
   //Background color
  background: black;
@@ -67,24 +68,24 @@ ul{
 
 
 
-    .action-set .link a{
-      color: white;
-    }
+    // .action-set .link a{
+    //   color: white;
+    // }
   .action-set {
     color: white;
+    margin-bottom: 0;
+    border-style: outset;
+    padding: 10px; 
+    
     display: -webkit-flex;
     //webkit-flex-direction:column;
     justify-content: space-around;
     flex-flow: row wrap;
     flex: 4;
-    margin-bottom: 0;
+
   }
 
 //Making the links in the header into buttons
-  .action-set li{
-    border-style: outset;
-    padding: 10px;
-  }
 
 
 
@@ -93,31 +94,34 @@ ul{
 //Here we will edit the properties of the icons used in CSS as they are fonts
 .top-nav{
 
+  border-bottom: solid 1px #5c5c5c;
+
+
   .selectedCountry{
     color:white;
     font-size: 10px;
   }
 //The Shopping cart
-  .icon-shopping-cart{
-    color:$link_color;
-    font-size:25px;
-  }
-  .icon-globe{
-    color: $link_color;
-    font-size: 25px;
-  }
-  .icon-gift{
-    color: $link_color;
-    font-size: 25px;
-  }
-  .icon-check-sign{
-    color: $link_color;
-    font-size: 25px;
-  }
-  .icon-user{
-    color: $link_color;
-    font-size: 25px;
-  }
+    .icon-shopping-cart{
+      color:$category_color_1;
+      font-size:25px;
+    }
+    .icon-globe{
+      color: $link_color;
+      font-size: 25px;
+    }
+    .icon-gift{
+      color: $link_color;
+      font-size: 25px;
+    }
+    .icon-check-sign{
+      color: $link_color;
+      font-size: 25px;
+    }
+    .icon-user{
+      color: $category_color_1;
+      font-size: 25px;
+    }
 
     //Menu Icon
     .icon-th-list{
@@ -125,10 +129,27 @@ ul{
       font-size: 25px;
     }
 
+      li.link{
+        
+          [i="icon-shopping-cart"]
+          {
+            top:45px;
+            right:25px;
+          }
+        }
+
+      li.action{
+          position:absolute;
+          right:15px;
+          top:45px;
+        }
+
     //remove bullets from top-nav
     ul{
       list-style-type: none;
       }
+    
+
 
 }//top-nav end
 
@@ -136,14 +157,17 @@ ul{
 
        display:block;
         background-color:white;
+        opacity: 0.7;
 
       }
 
   .navigation{
 
     span[data-ur-tabs-component='button']{
-      //if it expands, add a symbol to show that it expands
-    }
+
+      }
+
+
 	   .category-title{
       position:relative;
       display: block;
@@ -155,8 +179,8 @@ ul{
       padding: 5px;
       font-weight: bold;
       border-width: 2px;
+      opacity: 0.9;
     }
-
 
 
   }//navigation end

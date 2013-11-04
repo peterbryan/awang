@@ -1,13 +1,15 @@
 #mw_footer {
 
-ul{
-    list-style-type: none;
-  }
+	
+		ul{
+  	  list-style-type: none;
+ 	 		}
 
     //Background color
- background: black;
- margin-top: none;
- text-align: center; 
+ 		background: black;
+ 		margin-top: none;
+ 		text-align: center; 
+ 		a{color: $category_color_1;}
 }
 
 .icon-twitter-sign{
@@ -21,6 +23,6 @@ font-size: 25px;
 }
 
 .icon-envelope-alt{
-color: $link_color;
+//color: $link_color;
 font-size: 25px;
 }
